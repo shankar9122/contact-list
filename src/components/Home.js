@@ -183,7 +183,7 @@ export default function Home() {
                     </TableCell>
                     <TableCell>
                       <Typography variant="body2" fontWeight="500">
-                        {row.whatsapp ? "Yes" : "No"}
+                        {row.isWhatsapp ? "Yes" : "No"}
                       </Typography>
                     </TableCell>
                   </TableRow>
